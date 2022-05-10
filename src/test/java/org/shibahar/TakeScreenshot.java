@@ -23,7 +23,7 @@ public class TakeScreenshot {
 
         File src=ts.getScreenshotAs(OutputType.FILE);
 
-        File tar = new File("/Users/snagarajan/Documents/SeleniumBasics/src/test/java/Test/123.jpeg");
+        File tar = new File("/Users/snagarajan/Documents/SeleniumBasics/src/test/java/Test/555.jpeg");
 
         FileUtils.copyFile(src,tar);
 
